@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        // Логіка для кнопки Yahoo
+         // Логіка для кнопки Yahoo
         val btnYahoo = findViewById<Button>(R.id.btnYahoo)
         btnYahoo.setOnClickListener {
             Toast.makeText(this, "Вхід через Yahoo...", Toast.LENGTH_SHORT).show()
